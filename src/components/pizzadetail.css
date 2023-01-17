@@ -1,0 +1,59 @@
+.pizza-detail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 5% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .pizza-detail-img {
+    width: 50%;
+    margin-right: 2%;
+  }
+  
+  .pizza-detail-info {
+    width: 50%;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 14px;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    
+    font-size: 13px;
+    margin-bottom: 0.2em;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .pizza-detail-container {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  
+    .pizza-detail-img, .pizza-detail-info {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
